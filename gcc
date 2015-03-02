@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+./dockertools/bin/run gcc.docker gcc
