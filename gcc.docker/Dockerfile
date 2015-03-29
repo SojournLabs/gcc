@@ -1,8 +1,8 @@
-# Root certificate authority container.
 FROM debian
 MAINTAINER jonathan lung <vapr@sojournlabs.com>
 RUN apt-get update
 RUN apt-get install -y \
+    curl \
     gcc-4.7 \
     git \
     make
